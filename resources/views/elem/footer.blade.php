@@ -1,3 +1,7 @@
 <footer class='{{$color}}'>
-  {{$desc}}
+
+  <h3>
+    {{$desc}}
+  </h3>
+
 </footer>

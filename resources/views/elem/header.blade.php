@@ -1,3 +1,5 @@
 <header class="{{$color}}">
-  {{$desc}}
+  <h1>
+    {{$desc}}
+  </h1>
 </header>

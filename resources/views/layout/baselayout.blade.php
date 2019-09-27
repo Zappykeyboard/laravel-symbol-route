@@ -12,7 +12,10 @@
     <body>
       @include('elem.header')
 
-      @yield('content')
+      <div class="container">
+        @yield('content')
+      </div>
+
 
       @include('elem.footer')
     </body>

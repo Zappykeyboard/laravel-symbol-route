@@ -18,4 +18,4 @@ Route::get('/', function () {
 
 Route::get('/cube/number','MyController@displayCubeNumbers');
 
-//Route::ge('/cube/letter','TODO');
+Route::get('/cube/letter','MyController@displayCubeLetters');

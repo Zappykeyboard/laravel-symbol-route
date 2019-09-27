@@ -2,11 +2,11 @@
 
 @section('content')
 
-  @for ($i=0; $i < 10; $i++)
-    <div class="cube number">
-      {{$i}}
+  @foreach ($arr as $elem)
+    <div class="cube {{$color}}">
+      {{$elem}}
     </div>
-  @endfor
+  @endforeach
 
 
 @endsection

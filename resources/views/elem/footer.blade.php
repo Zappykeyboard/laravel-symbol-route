@@ -1,3 +1,3 @@
-<footer>
-  Goodbye, footer!
+<footer class='{{$color}}'>
+  {{$desc}}
 </footer>

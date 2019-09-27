@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/cube/number','MyController@displayCubeNumbers');
+
+//Route::ge('/cube/letter','TODO');
